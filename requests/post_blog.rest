@@ -2,8 +2,8 @@ POST http://localhost:3003/api/blogs
 Content-Type: application/json
 
 {
-    "title": "blog2",
-    "author": "Yachter",
+    "title": "toJSON test",
+    "author": "jason",
     "url": "moocfi.com",
-    "likes": 9000
+    "likes": 12345
 }
