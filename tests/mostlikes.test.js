@@ -24,7 +24,6 @@ describe('total likes', () => {
 	})
 
 	test('when list has no blogs equals placeholder', () => {
-		expect(mostLikes([])).toEqual({"author": null, "likes": -1})
+		expect(mostLikes([])).toEqual({ author: null, likes: -1})
 	})
-
 })
