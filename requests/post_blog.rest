@@ -3,9 +3,8 @@ Content-Type: application/json
 Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Impvb28iLCJpZCI6IjVmMjViYjg3NWM0MzA0MTg1NDJmNDBjZiIsImlhdCI6MTU5NjMwODg5MX0.tyJNFwMYgBBWLLbAhGvmOVMYDoP0tf1RV-WnUIlcL20
 
 {
-    "title": "userId test16",
+    "title": "userId test17",
     "author": "jason",
     "url": "moocfi.com",
-    "likes": 12345,
-    "userId": "5f25bb875c430418542f40cf"
+    "likes": 12345
 }
