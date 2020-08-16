@@ -31,7 +31,7 @@ usersRouter.get('/', async (req, res) => {
 })
 
 usersRouter.get('/:id', async (req, res) => {
-	const user = await User.findById(req.params.id)
+	const user = await User.findById(req.params.id).populate('blogs', { url: 1, title: 1, author: 1 })
 	res.json(user)
 })
 
